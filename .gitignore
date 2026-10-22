@@ -1,0 +1,39 @@
+# 依赖与构建产物
+node_modules/
+# Root lib/ is the prebuilt standard plugin artifact. Nested source-copy
+# artifacts remain local build output.
+plugins/*/lib/
+packages/*/*/lib/
+dist/
+*.tsbuildinfo
+
+# 日志
+*.log
+npm-debug.log*
+
+# 本机凭据与私钥
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 本地私人开发文件：禁止进入公开仓库
+/PROJECT_NOTES.md
+/readme-preview.html
+/docs/readme-preview.html
+/runtime/
+# Local migration fixtures and private review artifacts
+/.tmp-rel-*/
+/.tmp-settings-results.json
+/change-report*.md
+/AGENTS.md

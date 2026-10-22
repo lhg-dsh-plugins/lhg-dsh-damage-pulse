@@ -1,0 +1,4 @@
+# wechat-notify local mount overlay.
+- insert:
+    - id: wechat-notify
+      name: 'file:///PATH/TO/YOUR/deepseek-harness/plugins/wechat-notify/src/index.ts'

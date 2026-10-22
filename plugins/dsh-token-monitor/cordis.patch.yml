@@ -1,0 +1,5 @@
+# dsh-token-monitor local mount overlay.
+- insert:
+    - id: dsh-token-monitor
+      name: 'file:///PATH/TO/YOUR/deepseek-harness/plugins/dsh-token-monitor/src/index.ts'
+      displayName: dsh-damage-pulse
